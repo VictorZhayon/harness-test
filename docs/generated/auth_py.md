@@ -23,4 +23,4 @@ The `login` function authenticates a user with the provided credentials.
 - `AuthResponse`: An object containing the user's ID, email, and access token upon successful login.
 
 **Raises:**
-- `HTTPException`: Raises an `HTTPException` with status `401 UNAUTHORIZED` if `InvalidCredentialsError` occurs during login.
+- `HTTPException`: If `InvalidCredentialsError` occurs during login, an `HTTPException` with status `401 UNAUTHORIZED` is raised.
